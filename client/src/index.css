@@ -35,15 +35,6 @@ code {
     width: 20px;
 }
 
-.title{
-    color:white;
-    width: 100%;
-    position: absolute;
-    line-height: 48px;
-    font-size: 20px;
-    font-weight: bold;
-}
-
 /* Change the color of links on hover */
 .topnav a:hover {
     background-color: #ddd;
@@ -52,4 +43,47 @@ code {
 
 /* Add a color to the active/current link */
 .topnav a.active {
+}
+
+
+
+.title {
+    font-size: 34px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 60px;
+}
+
+.carousel{
+    margin-bottom: 70px;
+}
+
+.dropdown-content{
+    top: 0 !important;
+}
+.row{
+    margin: 0 !important;
+}
+
+.bodyContainer{
+    margin: auto;
+    padding: 40px;
+}
+
+@media only screen and (min-width: 1240px){
+    .bodyContainer{
+        width: 1200px;
+    }
+}
+
+.collegeSearch .search-wrapper{
+    position:relative;
+    width: 400px;
+    top: -50px;
+}
+
+.collegeSearch i.material-icons{
+    position:absolute;
+    top: 12px;
+    left: 365px;
 }
