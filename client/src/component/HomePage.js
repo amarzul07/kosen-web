@@ -22,11 +22,11 @@ export class TopImages extends React.Component {
                 <div className="carousel-fixed-item center">
                     <a className="btn waves-effect white grey-text darken-text-2">button</a>
                 </div>
-                <div className="carousel-item red white-text" href="#one!">
+                <div className="carousel-item amber white-text" href="#one!">
                     <h2>First Panel</h2>
                     <p className="white-text">This is your first panel</p>
                 </div>
-                <div className="carousel-item amber white-text" href="#two!">
+                <div className="carousel-item red white-text" href="#two!">
                     <h2>Second Panel</h2>
                     <p className="white-text">This is your second panel</p>
                 </div>
@@ -70,7 +70,7 @@ export default class HomePage extends React.Component {
             <div>
                 <TopNav/>
                 <TopImages/>
-                <div className="newsContainer">
+                <div className="bodyContainer">
                     <div className="row">
                         {this.state.news.map((news, index) => (
                             <NewsCard

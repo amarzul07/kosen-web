@@ -1,6 +1,7 @@
 import React from 'react';
 import TopNav from "../TopNav";
-import {Pagination} from 'react-bootstrap';
+import CollegeInfo from "./CollegeInfo";
+import Footer from "../Footer";
 
 export default class CollegesPage extends React.Component {
     constructor(props) {
@@ -38,14 +39,9 @@ export default class CollegesPage extends React.Component {
                             <div className="searchResults"></div>
                         </div>
                     </div>
-
-                    <div className="text-center">
-                        {this.state.pageOfItems.map((item) => (
-                            <div key={item.id}>{item.name}</div>
-                        ))}
-                        <Pagination items={this.state.exampleItems} onChangePage={this.onChangePage.bind(this)}/>
-                    </div>
+                    <CollegeInfo/>
                 </div>
+                <Footer/>
             </div>
         )
     }
