@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/vps_authorized_keys
 
 # testing
 /coverage
