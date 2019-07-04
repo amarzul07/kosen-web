@@ -13,3 +13,5 @@ Kosen club website
 https://www.freecodecamp.org/news/create-a-fullstack-react-express-mongodb-app-using-docker-c3e3e21c4074/ Docker
 https://qiita.com/n-yamanaka/items/ddb18943f5e43ca5ac2e
 http://okamuuu.hatenablog.com/entry/2017/10/03/080017
+https://medium.com/@balghazi/deploying-react-node-js-application-to-amazon-ec2-instance-a89140ab6aab
+https://storylens.com/@manjunath/how-to-deploy-a-react-application-to-a-server
