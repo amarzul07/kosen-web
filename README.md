@@ -15,3 +15,7 @@ https://qiita.com/n-yamanaka/items/ddb18943f5e43ca5ac2e
 http://okamuuu.hatenablog.com/entry/2017/10/03/080017
 https://medium.com/@balghazi/deploying-react-node-js-application-to-amazon-ec2-instance-a89140ab6aab
 https://storylens.com/@manjunath/how-to-deploy-a-react-application-to-a-server
+
+Webpack and Babel 
+https://qiita.com/akirakudo/items/77c3cd49e2bf39da79dd
+https://github.com/akirakudo/react-es6-tutorial
